@@ -1,0 +1,79 @@
+@font-face {
+    font-family:"SF-PRO";
+    src: url('../fonts/sf2.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "SF-PRO";
+    text-decoration: none;
+}
+html,body{
+    height: 100%;
+}
+body{
+    background-color: black;
+}
+header{
+    padding: 8px 2%;
+    background-color: #333;
+    text-align: center;
+}
+nav.menu ul{
+    display: inline-block;
+}
+nav.menu li{
+    display: inline-block;
+    color: white;
+    margin:  0 30px;
+    font-size: 14px;
+}
+nav.menu a{
+    margin: 0 5px;
+    color: white;
+    text-decoration: none;
+}
+section.demo{
+    text-align: center;
+    padding: 50px 0;
+    color: white;
+}
+section.demo img{
+    display: inline-block;
+    max-width: 900px;
+    width: 100%;
+}
+section.demo h1{
+    font-size: 30px;
+}
+section.demo h3{
+    font-size: 50px;
+    margin: 20px 0;
+}
+
+div.conteudo{
+    max-width: 600px;
+    margin: 0 auto;
+    color: #a1a1a6;;
+    padding: 30px 0;
+}
+div.conteudo h4{
+    margin-top: 200px;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: .009em;
+}
+div.conteudo p{
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.links a{
+    color: white;
+    font-size: 19px;
+    margin: 0 30px;
+}
+.links a:hover{
+    text-decoration: underline;
+}
